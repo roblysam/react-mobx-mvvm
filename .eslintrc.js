@@ -4,7 +4,7 @@ module.exports = {
         "react-app",
         //"plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint",
+        "prettier/@typescript-eslint"
         //"plugin:prettier/recommended"
     ],
     settings: {
@@ -35,14 +35,15 @@ module.exports = {
         // our coding standards
         "@typescript-eslint/interface-name-prefix": 0,
         "@typescript-eslint/no-empty-interface": 0,
-        
+
         // loosen the thumb screws
         "@typescript-eslint/explicit-member-accessibility": 0,
         "@typescript-eslint/no-object-literal-type-assertion": 0,
-        "@typescript-eslint/prefer-interface": 0
+        "@typescript-eslint/prefer-interface": 0,
+        "@typescript-eslint/no-explicit-any": 0,
+        "react-hooks/exhaustive-deps": 0
     }
 };
-
 
 /*module.exports = {
     parser: "@typescript-eslint/parser",
