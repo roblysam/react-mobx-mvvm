@@ -9,7 +9,7 @@ export function Button() {
 }
 
 ```
-The TypeScript signature of this function is `function Button(): JSX.Element` - it is a function that returns a JSX Element.
+The TypeScript signature of this function is `function Button(): JSX.Element`{:.tsx} - it is a function that returns a JSX Element.
 
 A typescript example:
 ```tsx
